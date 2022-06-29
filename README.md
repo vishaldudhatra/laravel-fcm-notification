@@ -1,11 +1,6 @@
 # Laravel FCM Notification
 Laravel FCM (Firebase Cloud Messaging) Notification Channel
 
-[![GitHub tag](https://badgen.net/github/tag/vishaldudhatra/laravel-fcm-notification)](https://github.com/vishaldudhatra/laravel-fcm-notification/releases)
-[![Packagist](https://badgen.net/packagist/v/vishaldudhatra/laravel-fcm-notification)](https://packagist.org/packages/vishaldudhatra/laravel-fcm-notification)
-[![Downloads](https://badgen.net/packagist/dt/vishaldudhatra/laravel-fcm-notification)](https://packagist.org/packages/vishaldudhatra/laravel-fcm-notification)
-[![Build Status](https://travis-ci.com/vishaldudhatra/laravel-fcm-notification.svg)](https://travis-ci.com/vishaldudhatra/laravel-fcm-notification)
-[![License](https://badgen.net/packagist/license/vishaldudhatra/laravel-fcm-notification)](https://packagist.org/packages/vishaldudhatra/laravel-fcm-notification)
 
 Use this package to send push notifications via Laravel to Firebase Cloud Messaging. Laravel 5.5+ required.
 
