@@ -62,7 +62,7 @@ class FcmChannel
 
                 $response = $this->client->post(self::API_URI, [
                     'headers' => [
-                        'Authorization' => 'key='.$this->apiKey,
+                        'Authorization' => 'key='.config('services.fcm.key'),
                         'Content-Type'  => 'application/json',
                     ],
                     'body' => $message->formatData(),
@@ -73,7 +73,7 @@ class FcmChannel
         } else {
             $response = $this->client->post(self::API_URI, [
                 'headers' => [
-                    'Authorization' => 'key='.$this->apiKey,
+                    'Authorization' => 'key='.config('services.fcm.key'),
                     'Content-Type' => 'application/json',
                 ],
                 'body' => $message->formatData(),
